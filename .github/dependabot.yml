@@ -5,8 +5,8 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # Replace with your package manager, e.g., "maven", "pip", etc.
-    directory: "/" # Directory where your package files are located
+  - package-ecosystem: "maven" # Use "maven" for Maven projects
+    directory: "/java-maven-sonar-argocd-helm-k8s/spring-boot-app" # Directory containing the pom.xml file
     schedule:
       interval: "daily" # Options: daily, weekly, monthly
     commit-message:
